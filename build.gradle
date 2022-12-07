@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.testng:testng:7.1.0'
+    testImplementation 'junit:junit:4.13'
 
     compileOnly 'org.projectlombok:lombok:1.18.24'
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
@@ -20,5 +20,5 @@ dependencies {
 }
 
 test {
-    useTestNG()
+    useJUnit()
 }
